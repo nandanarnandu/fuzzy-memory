@@ -1,0 +1,18 @@
+{% extends 'classroom/base.html' %}
+{% load static %}
+{% block content %}
+
+  <div class="login-page">
+  <img src="https://media.istockphoto.com/id/1376131442/photo/teacher-with-students-around-explaining-or-teaching-from-book-on-classroom-concept-of-support.webp?b=1&s=612x612&w=0&k=20&c=Uutp-6Koo_0315SPEmYjs4sS2R1bXgH1d3llr1GZYtQ=" alt="" width="1000" height="1000">
+    <div class="signup">
+      <h1>Sign Up</h1>
+      <br>
+      <a href="{% url 'classroom:StudentSignUp' %}"><p>I'm a Student</p> </a>
+      <br>
+      <a href="{% url 'classroom:TeacherSignUp' %}"><p>I'm a Teacher</p> </a>
+    </div>
+    </div>
+
+
+
+{% endblock %}

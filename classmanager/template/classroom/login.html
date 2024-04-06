@@ -1,0 +1,41 @@
+{% extends 'classroom/base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<div class="login-page">
+  <img src="https://www.shutterstock.com/image-photo/classroom-school-without-student-teacher-600nw-1940009296.jpg" alt="" width=""900" height=""1200">
+  <div class="login-form">
+    <div class="avatar">
+      <img src="data:image/png;base64,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" alt="">
+    </div>
+    {% if messages %}
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+      {% for message in messages %}
+        <div class="alert {% if message.tags %} alert-{{ message.tags }}{% endif %}">{{ message|safe }}</div>
+      {% endfor %}
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    {% endif %}
+    <h1>Login</h1>
+    <form action="{% url 'classroom:login' %}" method="post">
+      {% csrf_token %}
+      <p>Username:</p>
+      <input type="text" name="username" placeholder="Enter your username">
+      <br>
+      <br>
+      <p>Password:</p>
+      <input type="password" name="password" placeholder="Enter password">
+      <br>
+      <br>
+      <input class="btn btn-primary" type="submit" name="" value="Login">
+    </form>
+    <a href="{% url 'classroom:signup' %}">Don't have an account.</a>
+  </div>
+</div>
+
+
+{% endblock %}
