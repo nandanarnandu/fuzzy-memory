@@ -4,7 +4,7 @@
 
 
 # Student Teacher Portal
-Welcome to Class Manager, the ultimate platform designed to foster seamless communication and efficient management between teachers and students. Built using HTML, CSS, Python, and Django, Class Manager offers a comprehensive suite of features tailored to enhance the educational experience for both educators and learners.
+Welcome to Student Teacher Portal, the ultimate platform designed to foster seamless communication and efficient management between teachers and students. Built using HTML, CSS, Python, and Django, Class Manager offers a comprehensive suite of features tailored to enhance the educational experience for both educators and learners.
 
 Key Features:
 
