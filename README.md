@@ -3,7 +3,7 @@
 
 
 
-# Project Name
+# Student Teacher Portal
 Long Description about project. This project do that. This project is awesome...
 ## Team members
 1. [Nandana R](https://github.com/nandanarnandu)
